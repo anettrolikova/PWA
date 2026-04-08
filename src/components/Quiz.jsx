@@ -39,7 +39,7 @@ export default function Quiz({ onFinish, onBack }) {
   }
 
   if (phase === 'done') {
-    return <ResultScreen results={results} onFinish={onFinish} />;
+    return <ResultScreen results={results} onFinish={() => onFinish(results)} />;
   }
 
   const progress = ((currentIdx + (phase === 'explanation' ? 1 : 0)) / total) * 100;
