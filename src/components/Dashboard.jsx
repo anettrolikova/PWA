@@ -33,8 +33,8 @@ export default function Dashboard({ progress, level, nextLevel, levelProgress, o
     <div className="screen dashboard">
       <header className="dashboard-header">
         <div className="brand">
-          <span className="brand-g">G</span>
-          <span className="brand-text">English, <em>buddy</em></span>
+          <span className="brand-g">E</span>
+          <span className="brand-text">nglish, <em>buddy</em></span>
         </div>
       </header>
 
