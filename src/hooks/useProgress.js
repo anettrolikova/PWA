@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback } from 'react';
 
-const STORAGE_KEY = 'grammar-darling-progress';
+const STORAGE_KEY = 'english-buddy-progress';
 
 const LEVELS = [
   { name: 'Newbie', min: 0, max: 99 },
