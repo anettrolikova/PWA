@@ -1,4 +1,4 @@
-const CACHE_NAME = 'grammar-darling-v1';
+const CACHE_NAME = 'english-buddy-v1';
 const STATIC_ASSETS = [
   '/',
   '/index.html',
