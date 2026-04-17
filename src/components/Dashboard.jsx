@@ -34,7 +34,7 @@ export default function Dashboard({ progress, level, nextLevel, levelProgress, o
       <header className="dashboard-header">
         <div className="brand">
           <span className="brand-g">G</span>
-          <span className="brand-text">rammar, <em>Darling</em></span>
+          <span className="brand-text">English, <em>buddy</em></span>
         </div>
       </header>
 
@@ -68,7 +68,7 @@ export default function Dashboard({ progress, level, nextLevel, levelProgress, o
               {level.max + 1 - progress.xp} XP to <strong>{nextLevel.name}</strong>
             </p>
           )}
-          {!nextLevel && <p className="level-next">You've reached the top. Sharp as a darling.</p>}
+          {!nextLevel && <p className="level-next">You've reached the top. Sharp as an Einstein.</p>}
         </div>
 
         {/* Stats row */}
